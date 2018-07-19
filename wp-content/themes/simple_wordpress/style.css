@@ -1,0 +1,62 @@
+/*
+Theme Name: Simple Wordpress
+Theme URI: http://www.phphyperteam.com/simplewordpress
+Author: PHP Hyper Team
+Author URI: http://www.phphyperteam.com/papon
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0.0
+Text Domain: simplewordpress
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.admin-bar .navbar{margin-top: 32px;}
+.navbar-nav li.current-menu-item > a{
+	background: #E8CE0E;
+	color: #FFF;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+
+}
+
+@media(min-width: 768px){
+	.sub-menu{
+		background-color: #151515;
+		position:absolute;
+		display: none;
+		border-radius: 2px;
+	}
+	li.menu-item-has-children:hover .sub-menu{
+		display: block;
+	}
+}
+.sub-menu{
+	padding: 5px;
+	border-radius: 5px;
+}
+.sub-menu li a{
+	margin-bottom: 10px;
+	list-style: none;
+	border-radius: 3px;
+	text-decoration: none;
+
+}
+.sub-menu li {
+	color: #FFF;
+	text-decoration: none;
+	list-style: none;
+	margin-bottom: 10px;
+}
+.sub-menu li :hover {
+  background: #E8CE0E;
+	color: #FFF;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+.current_page_parent{
+	background:#E8CE0E;
+}

@@ -1,0 +1,32 @@
+/*
+
+Theme Name: ZBoom Music;
+Theme URL: http://www.phphyperteam.com/zboommusic;
+Author: PHP Hyper Team;
+Author ULR: http://www.phphyperteam.com/papon;
+Version: 1.0.0;
+Description: Two columns superb wordpress theme an exceptional theme;
+Textdomain: zboom;
+
+*/
+.comment-body .comment-author img{
+
+	height: 30px;
+	width: 30px;
+}
+
+.nav-links a.page-numbers{
+	background-color: white;
+	color: black;
+	padding: 10px;
+	font-weight: bold;
+}
+.nav-links span.current{
+	background-color: #EE235A;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+}
+#pagi{
+	width: 300px;
+}
